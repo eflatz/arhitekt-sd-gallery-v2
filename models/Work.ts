@@ -13,6 +13,6 @@ export default interface Work {
     description: string,
     study: string,
     images: WorkImage[],
-    imageOne: WorkImage,
+    imageOne: WorkImage[],
     video: string
 }

@@ -14,7 +14,6 @@ export default function Page({
 }: {
   params: { id: string };
   searchParams: { kioskEnabled: string };
-  works: Work[];
 }) {
   const id = params.id;
   const kioskEnabled = searchParams.kioskEnabled;

@@ -1,4 +1,4 @@
 export default interface WorkImage {
-    metadata: { width: Number, height: Number },
+    metadata: { width: number, height: number },
     uri: string
 }

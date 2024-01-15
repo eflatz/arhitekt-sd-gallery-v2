@@ -1,10 +1,8 @@
 import Image from "next/image";
 import styles from "./worksGrid.module.css";
 import { useState, useEffect, useRef } from "react";
-import Modal from "./Modal";
 import Gallery from "../models/Gallery";
 import Work from "../models/Work";
-import WorkImage from "../models/WorkImage";
 
 const WORKS_TIMEOUT = 120000;
 const SPONSOR_TIMEOUT = 10000;
@@ -23,8 +21,10 @@ function renderImagesForColumn(
   gallery: Gallery,
 ) {
   return worksForColumn.map((item: Work, index) => {
+    const firstImage = item.imageOne[0];
+
     const galleryImage = {
-      dimensions: getImageDimensions(item.imageOne[0].metadata),
+      dimensions: getImageDimensions(firstImage?.metadata),
       metaData: item,
       imagePath: item.imageOne[0].uri.substr(9),
       basePath: gallery.galleryImagesStyleUrl,
@@ -49,11 +49,11 @@ function renderImagesForColumn(
   });
 }
 
-function getImageDimensions(dimensions) {
+function getImageDimensions(dimensions : {height: number, width: number}) {
   return { height: dimensions.height, width: dimensions.width };
 }
 
-const getRandomNumber = (min, max) => {
+const getRandomNumber = (min:number, max : number) => {
   const num = Math.floor(Math.random() * (max - min + 1)) + min;
   // console.log(num);
   return num;
