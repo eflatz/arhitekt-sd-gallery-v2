@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name":"Dani otvorenih vrata 2020",
+        "description": "Selekcija radova studenata za potrebe smotre i dana otvorenih vrata Studija dizajna",
+        "queryParams": "field_tags_tid=DOV2020",
+        "route": "dov2020",
+        "thumbUrl": "/images/DOV2020-thumb.png",
+        "galleryImagesStyleUrl": "https://www.studijdizajna.com/sites/default/files/styles/node_images_bottom/public/",
+        "modalImageStyleUrl": "https://www.studijdizajna.com/sites/default/files/styles/article-full/public/"
+    },
+    {
+        "id": "2",
+        "name": "Test",
+        "description": "Galerija za testiranje",
+        "queryParams": "",
+        "route": "test",
+        "thumbUrl": "/images/DOV2020-thumb.png",
+        "galleryImagesStyleUrl": "https://www.studijdizajna.com/sites/default/files/styles/node_images_bottom/public/",
+        "modalImageStyleUrl": "https://www.studijdizajna.com/sites/default/files/styles/article-full/public/"
+    },
+    {
+        "id": "3",
+        "name":"Dani otvorenih vrata 2023",
+        "description": "Selekcija radova studenata za potrebe smotre i dana otvorenih vrata Studija dizajna",
+        "queryParams": "field_tags_tid=DOV2023",
+        "route": "dov2020",
+        "thumbUrl": "/images/DOV2023-thumb.png",
+        "galleryImagesStyleUrl": "https://www.studijdizajna.com/sites/default/files/styles/node_images_bottom/public/",
+        "modalImageStyleUrl": "https://www.studijdizajna.com/sites/default/files/styles/article-full/public/"
+    }
+]
