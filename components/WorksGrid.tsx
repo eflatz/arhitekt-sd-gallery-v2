@@ -123,7 +123,7 @@ export default function WorksGrid({
           </div>
         </div>
         <div
-          className={`${styles.sdColumn} column-2 w-1/4 flex flex-col relative`}
+          className={`${styles.sdColumn} column-3 w-1/4 flex flex-col relative`}
           style={{ top: columnPositions[2] }}
         >
           <div ref={c3} style={{ padding: "0 12px" }}>
@@ -131,7 +131,7 @@ export default function WorksGrid({
           </div>
         </div>
         <div
-          className={`${styles.sdColumn} column-2 w-1/4 flex flex-col relative`}
+          className={`${styles.sdColumn} column-4 w-1/4 flex flex-col relative`}
           style={{ top: columnPositions[3] }}
         >
           <div ref={c4} style={{ padding: "0 12px" }}>
