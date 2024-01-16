@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./worksGrid.module.css";
+import styles from "./WorksGrid.module.css";
 import { useState, useEffect, useRef } from "react";
 import Gallery from "../models/Gallery";
 import Work from "../models/Work";
