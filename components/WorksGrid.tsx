@@ -43,7 +43,7 @@ function renderImagesForColumn(
           width={400}
           height={100}
         />
-        <div style={{height: 244}}></div>
+        <div style={{height: 24}}></div>
       </div>
     );
   });
