@@ -40,10 +40,10 @@ function renderImagesForColumn(
         <Image
           src={`${galleryImage.basePath}${galleryImage.imagePath}`}
           alt="Studij dizajna / radovi studenata"
-          width={400}
+          width={500}
           height={100}
         />
-        <div style={{height: 24}}></div>
+        <div style={{height: 24, background:'black'}}></div>
       </div>
     );
   });
