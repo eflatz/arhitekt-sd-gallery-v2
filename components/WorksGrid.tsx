@@ -17,10 +17,10 @@ function getWorksFor(column: number, works: Work[]) {
 }
 
 function renderImagesForColumn(
-  worksForColumn: Work[],
+  worksForColumn: any,
   gallery: Gallery,
 ) {
-  return worksForColumn.map((item: Work, index) => {
+  return worksForColumn.map((item: any, index) => {
     const firstImage = item.imageOne[0];
 
     const galleryImage = {
@@ -74,7 +74,7 @@ export default function WorksGrid({
   kioskEnabled,
 }: {
   gallery: any;
-  works: Work[];
+  works: any;
   kioskEnabled: boolean;
 }) {
   const [columnPositions, setColumnPositions] = useState([0, 0, 0, 0]);
