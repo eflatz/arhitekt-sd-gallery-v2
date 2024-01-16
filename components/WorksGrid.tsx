@@ -30,7 +30,7 @@ function renderImagesForColumn(
       basePath: gallery.galleryImagesStyleUrl,
     };
 
-    // console.log(galleryImage);
+    if(!firstImage) console.log(galleryImage);
 
     return (
       <div
